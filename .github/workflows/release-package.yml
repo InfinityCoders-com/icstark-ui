@@ -12,6 +12,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+      - run: yarn global add node-gyp
       - run: yarn ci
       - run: yarn test
 
