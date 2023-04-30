@@ -30,6 +30,9 @@
       "react-app/jest"
     ]
   },
+  "publishConfig": {
+    "@infinitycoders:registry": "https://npm.pkg.github.com"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
