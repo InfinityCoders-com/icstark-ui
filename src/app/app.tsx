@@ -1,9 +1,4 @@
 import styled from 'styled-components'
-import * as ReactDOM from "react-dom/client";
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom"
 const StyledApp = styled.div``
 
 export function App() {
